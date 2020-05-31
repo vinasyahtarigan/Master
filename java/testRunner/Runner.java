@@ -4,7 +4,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features= "Features/Gist.feature",glue={"stepDefinitions.productHotelTrx"})
+@CucumberOptions(features= "Features/Gist.feature",glue={"stepDefinitions.Gist"})
 
 public class Runner {
 }
